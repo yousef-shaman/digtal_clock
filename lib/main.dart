@@ -1,5 +1,6 @@
-import 'package:digtal_clock/clock_screen.dart';
+import 'package:digtal_clock/home.dart';
 import 'package:flutter/material.dart';
+
 
 void main() {
   runApp(const MyApp());
@@ -32,7 +33,8 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: const ClockScreen(),
+      home: const HomePage(),
     );
   }
 }
+
