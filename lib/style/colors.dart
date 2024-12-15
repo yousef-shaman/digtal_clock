@@ -1,33 +1,20 @@
 import 'package:flutter/material.dart';
 
-class AppStyle {
-  // static Color primaryColor = const Color(0xFF2253FF);
-  // static Color primaryColorDark = const Color(0xFF193BB1);
+//  const Color primaryColor =  Color(0xFF2253FF);
+//  const Color primaryColorDark =  Color(0xFF193BB1);
 
+/* Definining Background & App Color */
+const Color primaryColor = Color(0xFFfafafa);
+const Color primaryColorDarkTheme = Color.fromARGB(255, 4, 6, 12);
 
-  static Color primaryColor = const Color(0xFFfafafa);
-  static Color primaryColorDark = const Color.fromARGB(255, 17, 25, 54);
-  /* Definining text style */
-  static TextStyle maintext = const TextStyle(
-    color: Color.fromARGB(255, 17, 25, 54),
-    fontSize: 82.0,
-    fontWeight: FontWeight.bold,
-  );
-  static TextStyle maintextDark = const TextStyle(
-    color: Color.fromARGB(255, 213, 216, 47),
-    fontSize: 82.0,
-    fontWeight: FontWeight.bold,
-  );
+/* Definining Text Color */
+const Color mainTextColor = Colors.black87;
+const Color mainTextColorDarkTheme = Color.fromARGB(255, 255, 175, 3);
 
+const Color subTextColor = Colors.deepOrange;
+Color subTextColorDarkTheme = Colors.grey.withOpacity(0.5);
 
-  static TextStyle mainTextThin = const TextStyle(
-    color: Colors.deepOrange,
-    fontSize: 32.0,
-    fontWeight: FontWeight.normal,
-  );
-  static TextStyle mainTextThinDark = const TextStyle(
-    color: Color.fromARGB(255, 241, 215, 207),
-    fontSize: 32.0,
-    fontWeight: FontWeight.normal,
-  );
-}
+/* Definining Shadows Color */
+const Color mainTextShadowDarkTheme = Color.fromARGB(255, 219, 73, 5);
+// const Color primaryShadowColorDark = Color.fromARGB(255, 4, 6, 12);
+
